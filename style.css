@@ -1,0 +1,600 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Atlas Grotesk Web';
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #fff;
+    background-color: #0F0F0F;
+    letter-spacing: normal;
+    font-weight: normal;
+    scroll-behavior: smooth;
+    font-weight: lighter;
+}
+.Graymargin{
+    height: .1rem;
+    background-color: rgb(63, 63, 63);
+}
+#margin{
+    margin-bottom: 20rem;
+}
+
+/* First Starts */
+.Contain{
+    display: flex;
+    animation: firstDiv 4s ;
+}
+@keyframes firstDiv {
+    from{
+        height: 0rem;
+        opacity: 0;
+    }
+    to{
+        height: 100%;
+    }
+}
+.First{
+    background-image: url(https://carlund.co.uk/wp-content/uploads/2021/03/carlund-view-2-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 85rem;
+}
+.right .Head{
+    margin-top: 5rem;
+    text-align: center;
+}
+.Head button{
+    padding: 1.8rem 2.8rem 2.3rem 2.8rem;
+    border: .1rem solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: white;
+    border-radius: 7.8rem;
+    font-size: 2rem;
+    z-index: 10;
+    cursor: pointer;
+    position:fixed;
+}
+.Head{
+    padding-left: 44rem;
+}
+.left{
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 10%;
+    color: #fff;
+}
+.right h1{
+    padding-top: 25rem;
+    padding-left: 14rem; 
+    font-size: 5.5rem;
+    line-height: 6rem;
+}
+.Head-p{
+    text-align: left;
+    padding-top: 3rem;
+    padding-left: 14rem; 
+    font-size: 2rem;
+}
+/* First Ends */
+
+/* Second Starts */
+.Double{
+    display: flex;
+    padding-top: 12rem;
+    margin-bottom: 23vh;
+}
+.Left{
+    text-align: left;
+    justify-content:left;
+    width: 50%;
+    margin: auto;
+}
+.Left p{
+    width: 60%;
+    font-size: 2.1rem;
+    line-height: 2.2rem;
+    margin-left: 19rem;
+}
+.Right{
+    width: 50%;
+    margin-left: 17rem;
+    padding-right: 8rem;
+}
+.Right img{
+    height: 95vh;
+    float: right;
+    width: 90%;
+    Margin-right: 12rem;
+    Margin-left: 12rem;
+}
+/* Second Ends */
+
+/* Biggest Starts */
+.Slidessss{
+    z-index: 0;
+}
+.mainContain{
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+.mainContain h1{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.contains{
+    margin-top: 4rem;
+    display: flex;
+}
+.containLeft{
+    width: 35vw;
+}
+.containRight{
+    padding-top: 11rem;
+    padding-left: 18%;
+    width: 52vw;
+}
+.containleft1 img, .containright1 img{
+    height: 92vh;
+    width: 35vw;
+}
+.containleft2 img, .containright2 img{
+    height: 55vh;
+    width: 35vw;
+}
+.Smallpara p{
+    font-size: 2rem;
+}
+.Smallpara{
+    width: 35vw;
+    margin-bottom: 11rem;
+}
+.Smallpara span{
+    color: #909090;
+    padding: .5rem;
+}
+.swiper{
+    width: 100%;
+}
+.swiper-wrapper{
+    width: 35vw;
+}
+.swiper-button-next, .swiper-button-prev{
+    opacity: 0;
+}
+#firstp{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+}
+#Texture{
+    color: #909090;
+    font-size: 2rem;
+}
+#para-info{
+    line-height: 2.3rem;
+    font-size: 2.0rem;
+}
+
+/* Biggest Ends */
+
+/* Slide starts */
+.Slide1{
+    margin-left: 8rem;
+    margin-top: 10rem;
+    display: flex;
+    width: 88vw;
+    font-size: 2rem;
+}
+.Slide1l{
+    width: 47vw;
+    float: left;
+}
+.Slide1r{
+    width: 41vw;
+    float: right;
+}
+.contentBx a{
+    text-decoration: none;
+    text-align: right;
+    width: 2rem;
+    color: #fff;
+}
+.contentBx section{
+    cursor: pointer;
+    font-size: 3.8rem;
+    line-height: 3.7rem;
+    margin: 2rem 3rem 2rem .2rem;
+}
+.contentBx summary{
+    color: #fff;
+    list-style: none;
+    outline: none;
+    display: flex;
+}
+.contentBx summary::before{
+    margin-right: 2.5rem;
+    content: "+";
+    padding: .3rem 1.2rem .3rem 1.2rem;
+    border-radius:  5rem 5rem 5rem 5rem;
+    border: .1rem solid rgba(255, 255, 255, 0.2);
+    margin-left: .2rem;
+}
+.contentBx p{
+    margin: 2rem 3rem 2rem 6.8rem;
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+.contentBx section details[open] summary::before{
+    content: "–";
+    padding-bottom: .5rem;
+}
+
+.mid{
+    margin-left: 8rem;
+    font-size: 2.5rem;
+    margin-bottom: 6rem;
+}
+.carousel-container{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.carousel2nd{
+    width: 100vw;
+    margin-left: 8rem;
+    margin-right: 80rem;
+    margin-bottom: 10rem;
+}
+.carousel2nd img{
+    padding-bottom: 1.2rem;
+    height: 45vh;
+    width: 20vw;
+}
+.Flexing p{
+    padding-right: 17rem;
+}
+#L{
+    padding-right: 8rem;
+}
+
+.downdivi{
+    margin: 5rem;
+    display: flex;
+    overflow: hidden;
+}
+.down{
+    text-align: center;
+    width: 100%;
+    padding-top: 15rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-bottom: 8rem;
+}
+.down p{
+    text-align: center;
+    padding-bottom: 7rem;
+    color:  #909090;
+}
+.down h3{
+    padding-bottom: 5rem;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+/* Slide Ends */
+
+
+/* footer Starts */
+
+.Footer{
+    padding-top: 10rem;
+    margin-bottom: 15rem;
+}
+
+.Footer .Foot .Footer-section{
+    display: flex;
+}
+.Left-Footer{
+    float: left;
+    width: 50vw;
+    padding-top: 10rem;
+    padding-left: 8rem;
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+.Left-Footer > h2{
+    line-height: 4.5rem;
+}
+.Left-Footer > p{
+    margin-top: 2rem;
+    padding-right: 23rem;
+    font-size: 2.3rem;
+    line-height: 3.5rem;
+}
+.Left-Footer button{
+    margin-top: 3rem;
+    padding: 1.8rem 2.8rem 2.3rem 2.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: #fff;
+    border-radius: 7.8rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.Right-Footer{
+    float: right;
+    width: 45vw;
+    padding-top: 10rem;
+    padding-left: 18rem;
+    padding-right: 15rem;
+}
+#right{
+    font-size: 2.2rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.footer-social{    
+    margin-top: 3rem;
+    font-size: 2.3rem;
+}
+.fa-brands{
+    padding: 1.5rem;
+    border: .1rem solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: #fff;
+    border-radius: 7.8rem;
+}
+.fa-linkedin-in{
+    margin-left: 2rem;
+}
+.fa-instagram{
+    margin-left: 2rem;
+}
+.back{
+    text-decoration: none;
+    color: #909090;
+    padding-top: 40rem;
+    padding-left: 8rem;
+    padding-bottom: 7rem;
+}
+#Space{
+    margin-left: 3rem;
+    text-decoration: none;
+    color: #909090;
+}
+#top{
+    margin-left: 72rem;
+    text-decoration: none;
+    color: #909090;
+}
+/* footer Ends */
+
+@media only screen and (max-width: 760px) {
+    html{
+        font-size: 40%;
+    }
+
+    /* First */
+
+    .Contain{
+        display: block;
+        animation: firstDiv 4s;
+    }
+
+    .First{
+        background-image: url(https://carlund.co.uk/wp-content/uploads/2021/03/carlund-view-2-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+        width: 100%;
+    }
+    .right{
+        margin-bottom: 20rem;
+    }
+    .right h1{
+        margin-top: 85rem;   
+    } 
+    .right .Head{
+        margin-top: -76rem;
+        text-align: center;
+    }
+    .Head button{
+        margin-bottom: 50rem;
+        position:sticky;
+        display: none;
+    }
+    .Head{
+        padding-left: 30rem;
+    }
+    .Head-p{
+        margin-top: 5rem;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    /* First */
+
+    /* Second */
+
+    .Double{
+        display: block;
+        padding-top: 1rem;
+        margin: 0;
+    }
+    .Left{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        text-align: left;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .Left p{
+        width: 100%;
+        font-size: 2.8rem;
+        line-height: 3rem;
+        margin:0;
+    }
+    .Right{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .Right img{
+        height: 60vh;
+        width: 100vw;
+        margin: 0;
+        margin-bottom: 20rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    /* Second */
+
+    /* Swiper */
+
+    .contains{
+        margin-top: 4rem;
+        display: block;
+    }
+    .containLeft{
+        width: 100%;
+    }
+    .containRight{
+        padding: 0;
+        width: 100%;
+    }
+    .containleft1 img, .containright1 img{
+        height: 60vh;
+        width: 90vw;
+    }
+    .containleft2 img, .containright2 img{
+        height: 45vh;
+        width: 90vw;
+    }
+    .Smallpara{
+        width: 100%;
+        margin-bottom: 11rem;
+    }
+    #firstp{
+        font-size: 2.2rem;
+    }
+    #Texture{
+        color: #909090;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+    #para-info{
+        line-height: 3rem;
+        font-size: 2.4rem;
+    }
+    #Project{
+        padding-top: 1.4rem;
+        font-size: 2.8rem;
+    }
+    /* Swiper */
+
+    /* Slides */
+    .carousel2nd{
+        margin-left: 2rem;
+    }
+    .Slide1{
+        display: block;
+        height: 80%;
+        margin-left: 4rem;
+    }
+    .Slide1l{
+        width: 100%;
+        font-size: 2.6rem;
+    }
+    .Slide1r{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .contentBx summary::before{
+        height: 5rem;
+        margin-right: 2.5rem;
+        content: "+";
+        padding: .3rem 1.2rem .3rem 1.2rem;
+        border-radius:  5rem 5rem 5rem 5rem;
+        border: .1rem solid rgba(255, 255, 255, 0.2);
+        margin-left: .2rem;
+    }
+    .contentBx section{
+        cursor: pointer;
+        font-size: 4rem;
+        line-height: 3.7rem;
+        margin: 2rem 3rem 2rem .2rem;
+    }
+    .contentBx summary{
+        padding: 2rem;
+        line-height: 5rem;
+    }
+    .carousel2nd img{
+        width: 50rem;
+    }
+    .down{
+        font-size: 2.5rem;
+        padding: 0;
+        margin: 0;
+    }
+    .down h3{
+        font-size: 4rem;
+    }
+
+    /* Slides */
+
+    /* Footer */
+
+    .Footer{
+        display: block;
+        padding: 0;
+    }
+    .Right-Footer{
+        width: 100%;
+        padding-left: 10rem;
+        padding-bottom: 4rem;
+    }
+    .Left-Footer{
+        width: 100%;
+    }
+    .Left-Footer{
+        padding-top: 15rem;
+
+    }
+    .Left-Footer p{
+        font-size: 2.5rem;
+        padding-top: 5rem;
+    }
+    .Left-Footer button{
+        margin-top: 5rem;
+        padding-top: 2.5rem;
+        font-size: 2.5rem;
+    }
+    .footer-social{
+        padding-top: 2rem;
+    }
+    #right{
+        font-size: 2.5rem;
+    }
+    #top{
+        display: none;
+    }
+    .back{
+        margin-top: 40rem;
+    }
+}
